@@ -39,9 +39,9 @@ client.on('ready', () => {
     console.log('The bot is ready');
 });
 client.on('messageCreate', (message) => {
-    if (message.content === 'ping!!!') {
+    if (message.content === 'ping') {
         message.reply({
-            content: 'pong',
+            content: 'pong!!!',
         });
     }
 });
